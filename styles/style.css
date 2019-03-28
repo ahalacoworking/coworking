@@ -223,7 +223,6 @@ background: url(../images/wallet_icon.png) no-repeat;
 
 .news__section {
   list-style-type: none;
-  /* display: block; */
   padding-top: 45px;
   padding-left: 0;
 }
@@ -239,7 +238,6 @@ background: url(../images/wallet_icon.png) no-repeat;
   height: 160px;
   float: left;
   border-radius: 50%;
-  background-color: #000000;
   position: relative;
   overflow: hidden;
 }
