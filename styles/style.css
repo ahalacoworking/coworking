@@ -428,40 +428,37 @@ background: url(../images/wallet_icon.png) no-repeat;
   display: inline-block;
   width: 20px;
   height: 20px;
-  
+  border-radius: 50%;
+  background-color: #d4d4d8;
+  position: relative;
+  overflow: hidden;
 }
-.vk {
-  background: url(../images/vk.png) no-repeat;
+
+
+.footer__social-item__link-icon {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
-.vk:hover {
-  background: url(../images/vk_hover.png) no-repeat;
+.footer__social-item__link:hover {
+  background-color: #ec1e79;
 }
 
 .fb {
   background: url(../images/fb.png) no-repeat;
 }
-.fb:hover {
-  background: url(../images/fb_hover.png) no-repeat;
-}
 
 .google {
   background: url(../images/google.png) no-repeat;
-}
-.google:hover {
-  background: url(../images/google_hover.png) no-repeat;
 }
 
 .twitter {
   background: url(../images/twitter.png) no-repeat;
 }
-.twitter:hover {
-  background: url(../images/twitter_hover.png) no-repeat;
-}
 
 .mail {
   background: url(../images/mail.png) no-repeat;
-}
-.mail:hover {
-  background: url(../images/mail_hover.png) no-repeat;
 }
 
