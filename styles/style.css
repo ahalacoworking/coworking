@@ -445,20 +445,3 @@ background: url(../images/wallet_icon.png) no-repeat;
 .footer__social-item__link:hover {
   background-color: #ec1e79;
 }
-
-.fb {
-  background: url(../images/fb.png) no-repeat;
-}
-
-.google {
-  background: url(../images/google.png) no-repeat;
-}
-
-.twitter {
-  background: url(../images/twitter.png) no-repeat;
-}
-
-.mail {
-  background: url(../images/mail.png) no-repeat;
-}
-
