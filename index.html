@@ -1,188 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Коворкинг твоей мечты</title>
   <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-  <div class="header">
-    <div class="container">
-      <div class="logo">
-        <a href="#" class="logo-link">
-          <img src="images/logo-fig.png" alt="logo">
-        </a>
-      </div>
-      <div class="contacts">
-        <a href="tel:+78000039210" class="contacts__phone">
-          8 (800) 00-392-10
-        </a>
-        <a href="#" class="contacts__chart">
-          График работы
-        </a>
+  <div class="wrapper">
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="#" class="logo__link">
+            <img src="images/logo-fig.png" alt="logo">
+          </a>
+        </div>
+        <div class="contacts">
+          <a href="tel:+78000039210" class="contacts__phone">
+            8 (800) 00-392-10
+          </a>
+          <a href="#" class="contacts__chart">
+            График работы
+          </a>
+        </div>
       </div>
     </div>
-  </div>
     <div class="banner">
       <div class="container">
-      <img src="images/banner.jpg" alt="Коворкинг твоей мечты!">
-      </div> 
-    </div>   
-      <div class="container">
-      <div class="sidebar">
-        <ul class="navigation">
-          <li class="navigation-item">
-            <a href="#" class="navigation-item__link main">Главная</a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-item__link feedback">Отзывы </a>
-          </li>
-          <li class="navigation-item">
-            <a href="#" class="navigation-item__link price">Тарифы </a>
-          </li>
-        </ul>
+        <img src="images/banner.jpg" alt="Коворкинг твоей мечты!">
       </div>
-      <div class="content">
-        <div class="features">
-          <h1 class="tittle">Особенности</h1>
-          <ul class="features__list">
-            <li class="features__item">
-              <div class="features__item-icon">
-                <img src="images/flower.png" alt="Цветок" class="features__item-img">
-              </div>
-              <h3 class="features__item-tittle">Уникальность</h3>
-              <p class="features__item-desc">Создан для вашего комфортного отдыха</p>
-              <ul class="features__item-list">
-                <li class="features__item-list__item"><span>•</span>Кофе/чай</li>
-                <li class="features__item-list__item"><span>•</span>Шкаф (5 кг)</li>
-                <li class="features__item-list__item"><span>•</span>Рабочее место</li>
-              </ul>
+    </div>
+    <div class="maincontent">
+      <div class="container container--maincontent">
+        <div class="sidebar">
+          <ul class="navigation">
+            <li class="navigation__item navigation__item--active">
+              <a href="#" class="navigation__link navigation__link--main">
+                Главная
+              </a>
             </li>
-            <li class="features__item">
-              <div class="features__item-icon">
-                <img src="images/mark-as-favorite-star.png" alt="Звезда" class="features__item-img">
-              </div>
-              <h3 class="features__item-tittle">Премиум-класс</h3>
-              <p class="features__item-desc">Для любителей хороших впечатлений</p>
-              <ul class="features__item-list">
-                <li class="features__item-list__item"><span>•</span>Обед+кофе</li>
-                <li class="features__item-list__item"><span>•</span>Шкаф (10 кг)</li>
-                <li class="features__item-list__item"><span>•</span>Детское кресло</li>
-              </ul>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link navigation__link--feedback">
+                Отзывы
+              </a>
             </li>
-            <li class="features__item">
-              <div class="features__item-icon">
-                <img src="images/painter-palette.png" alt="Палет красок" class="features__item-img">
-              </div>
-              <h3 class="features__item-tittle">Лакшери-стулья</h3>
-              <p class="features__item-desc">Все самое лучшее и незабываемое</p>
-              <ul class="features__item-list">
-                <li class="features__item-list__item"><span>•</span>Джакузи</li>
-                <li class="features__item-list__item"><span>•</span>Шкаф 15кг</li>
-                <li class="features__item-list__item"><span>•</span>Табуретка</li>
-              </ul>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link navigation__link--price">
+                Тарифы
+              </a>
             </li>
           </ul>
         </div>
-        <div class="news">
-          <h2 class="tittle">Последние новости</h2>
-          <ul class="news__section">
-            <li class="news__section-item">
-              <div class="news__section-img">
-                <img src="images/feed_1.jpg" alt="" class="news__section-img-cont">
-              </div>
-              <div class="news__section-cont">
-                <div class="news__section-date">12.10.2016</div>
-                <h4 class="news__section-tittle">Чёрная дыра скидок</h4>
-                <div class="news__section-text">
-                  Ключевым технологическим партнером GrowUp является дата-центр Миран, 
-                  расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в любое время суток. 
-                  Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей.
+        <div class="content">
+          <div class="features">
+            <h1 class="tittle">Особенности</h1>
+            <ul class="features__list">
+              <li class="features__item">
+                <div class="features__item-icon">
+                  <div class="features__item-img features__item-img--flower"></div>
                 </div>
-              </div>              
-            </li>
-            <li class="news__section-item">
-              <div class="news__section-img">
-                <img src="images/feed_2.jpg" alt="" class="news__section-img-cont">
-              </div>
-              <div class="news__section-cont">
-                <div class="news__section-date">01.02.2016</div>
-                <h4 class="news__section-tittle">Заражай друзей, получай призы!</h4>
-                <div class="news__section-text">Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов 
-                  - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции, мастер-классы, 
-                  встречи с инвесторами или менторами для резидентов. 
+                <h3 class="features__item-tittle">Уникальность</h3>
+                <p class="features__item-desc">Создан для вашего комфортного отдыха</p>
+                <ul class="features__item-list">
+                  <li class="features__item-list__item"><span>•</span>Кофе/чай</li>
+                  <li class="features__item-list__item"><span>•</span>Шкаф (5 кг)</li>
+                  <li class="features__item-list__item"><span>•</span>Рабочее место</li>
+                </ul>
+              </li>
+              <li class="features__item">
+                <div class="features__item-icon">
+                  <div class="features__item-img features__item-img--star"></div>
                 </div>
-              </div>            
-            </li>
-            <li class="news__section-item">
-              <div class="news__section-img">
-                <img src="images/feed_3.jpg" alt="" class="news__section-img-cont">
-              </div>
-              <div class="news__section-cont">
-                <div class="news__section-date">22.12.2015</div>
-                <h4 class="news__section-tittle">Новое рабочее место для бизнесменов.</h4>
-                <div class="news__section-text">Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя: кухонную зону и зону релакса.
-                  Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой, чайником, кофе машиной, посудой.
+                <h3 class="features__item-tittle">Премиум-класс</h3>
+                <p class="features__item-desc">Для любителей хороших впечатлений</p>
+                <ul class="features__item-list">
+                  <li class="features__item-list__item"><span>•</span>Обед+кофе</li>
+                  <li class="features__item-list__item"><span>•</span>Шкаф (10 кг)</li>
+                  <li class="features__item-list__item"><span>•</span>Детское кресло</li>
+                </ul>
+              </li>
+              <li class="features__item">
+                <div class="features__item-icon">
+                  <div class="features__item-img features__item-img--palette"></div>
+                </div>
+                <h3 class="features__item-tittle">Лакшери-стулья</h3>
+                <p class="features__item-desc">Все самое лучшее и незабываемое</p>
+                <ul class="features__item-list">
+                  <li class="features__item-list__item"><span>•</span>Джакузи</li>
+                  <li class="features__item-list__item"><span>•</span>Шкаф 15кг</li>
+                  <li class="features__item-list__item"><span>•</span>Табуретка</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="news">
+            <h2 class="tittle">Последние новости</h2>
+            <ul class="news-section">
+              <li class="news-section__item">
+                <div class="news-section__img">
+                  <img src="images/feed_1.jpg" alt="" class="news-section__img-cont">
+                </div>
+                <div class="news-section__cont">
+                  <div class="news-section__date">12.10.2016</div>
+                  <h4 class="news-section__tittle">Чёрная дыра скидок</h4>
+                  <div class="news-section__text">
+                    Ключевым технологическим партнером GrowUp является дата-центр Миран,
+                    расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в
+                    любое
+                    время суток.
+                    Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей.
                   </div>
-              </div>            
-            </li>
-          </ul>
-        </div>
-        <div class="pagination">
-          <div class="pagination__nav">Страница 1 из 7</div>
-          <a href="#" class="pagination__nav-prev"><</a>
-          <ul class="pagination__nav-list">
-            <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link"><span>1</span></a></li>
-            <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">2</a></li>
-            <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">3</a></li>
-            <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">4</a></li>
-            <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">5</a></li>
-            <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">6</a></li>
-            <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">7</a></li>
-          </ul>
-          <a href="#" class="pagination__nav-next">></a>
+                </div>
+              </li>
+              <li class="news-section__item">
+                <div class="news-section__img">
+                  <img src="images/feed_2.jpg" alt="" class="news-section__img-cont">
+                </div>
+                <div class="news-section__cont">
+                  <div class="news-section__date">01.02.2016</div>
+                  <h4 class="news-section__tittle">Заражай друзей, получай призы!</h4>
+                  <div class="news-section__text">Быть частью сообщества сильных, грамотных и увлеченных своим делом
+                    профессионалов
+                    - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции,
+                    мастер-классы,
+                    встречи с инвесторами или менторами для резидентов.
+                  </div>
+                </div>
+              </li>
+              <li class="news-section__item news-section__item--last">
+                <div class="news-section__img">
+                  <img src="images/feed_3.jpg" alt="" class="news-section__img-cont">
+                </div>
+                <div class="news-section__cont">
+                  <div class="news-section__date">22.12.2015</div>
+                  <h4 class="news-section__tittle">Новое рабочее место для бизнесменов.</h4>
+                  <div class="news-section__text">Для резидентов коворкинга оборудована не только рабочая зона, но и
+                    зона
+                    отдыха. Она включает в себя: кухонную зону и зону релакса.
+                    Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой,
+                    чайником,
+                    кофе машиной, посудой.
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="pagination">
+            <div class="pagination__nav">Страница 1 из 7</div>
+            <a href="#" class="pagination__nav-prev pagination__nav-prev--disabled"><</a> 
+            <ul class="pagination__nav-list">
+              <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link pagination__nav-list__item-link--active">1</a></li>
+              <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">2</a></li>
+              <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">3</a></li>
+              <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">4</a></li>
+              <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">5</a></li>
+              <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">6</a></li>
+              <li class="pagination__nav-list__item"><a href="#" class="pagination__nav-list__item-link">7</a></li>
+            </ul>
+            <a href="#" class="pagination__nav-next">></a>
+          </div>
         </div>
       </div>
     </div>
     <div class="footer">
       <div class="container">
-        <div class="footer__copy">Сделано с любовью и старанием на курсе "html+css" в <a href="#" class="footer__copy-link">LoftSchool</a>. <br>Автор работы: <a href="#" class="footer__copy-link">Прохладов Вадим</a>
+        <div class="footer__copy">Сделано с любовью и старанием на курсе "html+css" в <a href="#"
+            class="footer__copy-link">LoftSchool</a>. <br>Автор работы: <a href="#" class="footer__copy-link">Прохладов
+            Вадим</a>
         </div>
         <div class="footer__logo">
-        <a href="#" class="logo-link"><img src="images/logo-fig.png" alt="Логотип"></a>
+          <a href="#" class="logo-link"><img src="images/logo-fig.png" alt="Логотип"></a>
         </div>
         <div class="footer__social">
-        <h5 class="footer__social-tittle">Наши социальные сети </h5>
-        <ul class="footer__social-list">
-          <li class="footer__social-item">
-            <a href="#" class="footer__social-item__link">
-              <img src="images/vk.png" class="footer__social-item__link-icon">
-            </a> 
-          </li>
-          <li class="footer__social-item">
-            <a href="#" class="footer__social-item__link">
+          <h5 class="footer__social-tittle">Наши социальные сети </h5>
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-item__link">
+                <img src="images/vk.png" class="footer__social-item__link-icon">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-item__link">
                 <img src="images/fb.png" class="footer__social-item__link-icon">
-            </a> 
-          </li>
-          <li class="footer__social-item">
-            <a href="#" class="footer__social-item__link">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-item__link">
                 <img src="images/google.png" class="footer__social-item__link-icon">
-            </a> 
-          </li>
-          <li class="footer__social-item">
-            <a href="#" class="footer__social-item__link">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-item__link">
                 <img src="images/twitter.png" class="footer__social-item__link-icon">
-            </a> 
-          </li>  
-          <li class="footer__social-item">
-            <a href="#" class="footer__social-item__link">
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-item__link">
                 <img src="images/mail.png" class="footer__social-item__link-icon">
-            </a> 
-          </li>  
-        </ul>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+  </div>
 </body>
+
 </html>
