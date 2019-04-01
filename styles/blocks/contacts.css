@@ -1,0 +1,24 @@
+.contacts {
+  float: right;
+  margin: 20px 20px 0 0;
+}
+
+.contacts__phone {
+  display: block;
+  font-family: 'gotham-b';
+  color: #fff;
+  font-size: 21px;
+  text-decoration: none;
+
+}
+
+.contacts__chart {
+  float: right;
+  font-family: 'open-b';
+  color: rgba(236, 30, 121, .7);
+  text-decoration: underline;
+  font-size: 14px;
+}
+.contacts__chart:hover {
+  color: #5dd1f8;
+}
