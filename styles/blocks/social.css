@@ -10,18 +10,16 @@
 }
 
 .social__tittle {
-  text-align: center;
+  text-align: left;
   display: block;
   font-family: gotham-b;
   font-size: 14px;
   color: #fff;
-  margin: 0;
 }
 
 .social__list {
   display: inline-block;
-  list-style-type: none;
-  margin: 0;
+  right: 0;
 }
 
 .social__item {

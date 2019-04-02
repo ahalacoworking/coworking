@@ -4,7 +4,6 @@
   position: absolute;
 }
 .navigation__item {
-   list-style: none;
    height: 50px;
    line-height: 34px;
    width: 100%;
@@ -14,6 +13,12 @@
 }
 .navigation__item--active .navigation__link--main:before {
   background: url(../../images/main_icon_hover.png) center center no-repeat;
+}
+.navigation__item--active .navigation__link--feedback:before {
+  background: url(../../images/feed_icon_hover.png) center center no-repeat;
+}
+.navigation__item--active .navigation__link--price:before {
+  background: url(../../images/wallet_icon_hover.png) center center no-repeat;
 }
 .navigation__link {
   display: inline-block;

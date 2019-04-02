@@ -13,7 +13,6 @@
 
 .pagination__nav-prev{
   display: inline;
-  list-style-type: none;
   padding-left: 0px;
   font-family: roboto-b;
   font-size: 14px;
@@ -33,7 +32,6 @@
 
 .pagination__nav-list__item-link {
   display: inline;
-  list-style-type: none;
   padding-left: 0px;
   font-family: roboto-b;
   font-size: 14px;
