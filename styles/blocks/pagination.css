@@ -1,10 +1,11 @@
 .pagination {
+  display: flex;
+  justify-content: center;
   margin-top: 40px;
   text-align: center;
   margin-bottom: 74px;
 }
 .pagination__nav  {
-  display: inline;
   font-family: roboto-l;
   font-size: 14px;
   color: #656464;
@@ -12,7 +13,6 @@
 }
 
 .pagination__nav-prev{
-  display: inline;
   padding-left: 0px;
   font-family: roboto-b;
   font-size: 14px;
@@ -25,13 +25,12 @@
 }
 
 .pagination__nav-list{
-  display: inline;
+  display: flex;
   margin: 0;
   padding: 0 0 0 10px;
 }
 
 .pagination__nav-list__item-link {
-  display: inline;
   padding-left: 0px;
   font-family: roboto-b;
   font-size: 14px;
@@ -40,7 +39,6 @@
   text-decoration: none;
 }
 .pagination__nav-list__item {
-  display: inline;
   font-family: roboto-b;
   font-size: 14px;
   color: #221f1f;
@@ -57,7 +55,6 @@
   margin-right: 5px;
 }
 .pagination__nav-next {
-  display: inline;
   font-family: roboto-b;
   font-size: 14px;
   color: #221f1f;

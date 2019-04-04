@@ -1,10 +1,12 @@
 .contacts {
   float: right;
   margin: 20px 20px 0 0;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
 }
 
 .contacts__phone {
-  display: block;
   font-family: 'gotham-b';
   color: #fff;
   font-size: 21px;
@@ -13,7 +15,6 @@
 }
 
 .contacts__chart {
-  float: right;
   font-family: 'open-b';
   color: rgba(236, 30, 121, .7);
   text-decoration: underline;

@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -57,14 +58,16 @@ table {
 }
 .container--maincontent {
   margin-top: 55px;
-}
-
-.content {
-  margin-left: 202px;
+  display: flex;
+  flex-flow: row;
 }
 
 .tittle {
   font-family: gotham-b;
   font-size: 49px;
   color: #221f1f;
+}
+
+.content {
+  width: 100%;
 }

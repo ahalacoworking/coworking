@@ -1,11 +1,12 @@
 .navigation {
   min-height: 100%;
-  float:left;
-  position: absolute;
+  width: 200px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 .navigation__item {
    height: 50px;
-   line-height: 34px;
    width: 100%;
 }
 .navigation__item--active .navigation__link{
@@ -21,9 +22,7 @@
   background: url(../../images/wallet_icon_hover.png) center center no-repeat;
 }
 .navigation__link {
-  display: inline-block;
   height: 18px;
-  vertical-align: middle;
   color: #ec1e79;
   font-family: gotham-b;
   font-size: 12px;

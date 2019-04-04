@@ -1,20 +1,22 @@
 .footer {
-  height: 77px;
+  /* height: 77px; */
   background-color: #27273e;
-  line-height: 77px;
+ /*  line-height: 77px; */
 }
 .footer .container {
+  height: 77px;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .footer-copy {
-  display: inline-block;
-  width: 265px;
+  width: 264px;
   font-family: gotham-l;
   font-size: 14px;
   color: #fff;
   padding: 0 0 0 19px;
   line-height: normal;
-  vertical-align: middle;
 }
 .footer-copy__link {
   font-family: gotham-b;
@@ -24,10 +26,4 @@
 
 }
 .footer-logo {
-  display: inline-block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform:translate(-50%, -50%);
-  line-height: normal;
 }

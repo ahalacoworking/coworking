@@ -2,4 +2,9 @@
   height: 77px;
   background-color: #27273e;
 }
+.container--header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
