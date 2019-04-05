@@ -26,11 +26,11 @@
         </div>
       </div>
     </header>
-    <aside class="banner">
+    <div class="banner">
       <div class="container">
-        <img src="images/banner.jpg" alt="Коворкинг твоей мечты!">
+        <img  class="banner__img" src="images/banner.jpg" alt="Коворкинг твоей мечты!">
       </div>
-    </aside>
+    </div>
     <div class="maincontent">
       <div class="container container--maincontent">
         <nav class="sidebar">
@@ -159,10 +159,10 @@
           </div>
         </div>
       </section>
-      <div class="form">
+      <form class="form">
         <div class="container container--form">
             <h2 class="tittle">Оставить отзыв</h2>
-            <form action="#" class="form-in">
+            <div  class="form-in">
               <div class="name">
                 <div class="name__desc">Ваше имя</div>
                 <input type="text" class="text-input" placeholder="Андрей">
@@ -171,20 +171,27 @@
                 <div class="vk-link__desc">Ссылка на профиль VK</div>
                 <input type="text" class="text-input" placeholder="vk.com/example">
               </div>
-              <div class="yourtext">
-                <div class="yourtext__desc">Текст отзыва</div>
-                <textarea type="text" class="yourtext__textarea" placeholder="Мне понравилось">
-                </textarea>
+            </div>
+            <div class="yourtext">
+              <div class="yourtext__desc">Текст отзыва</div>
+              <textarea type="text" class="yourtext__textarea" placeholder="Мне понравилось"></textarea>
+            </div>  
+            <div class="addfoto">
+              <div class="addfoto__radio">
+                  <div class="addfoto__desc">Отображать фото в отзыве?</div>
+                  <div class="addfoto__choice">
+                    <div class="addfoto__yes">
+                      <input type="radio" name="addfoto" class="addfoto__yes" value="Да"><span>Да</span>
+                    </div>  
+                    <div class="addfoto__no">
+                      <input type="radio" name="addfoto" class="addfoto__no" value="Нет"><span>Нет</span>
+                    </div>  
+                  </div>
               </div>
-              <div class="addfoto">
-                <div class="addfoto__desc">Отображать фото в отзыве?</div>
-                <input type="radio" class="addfoto__yes" value="Да">Да
-                <input type="radio" class="addfoto__no" value="Нет">Нет
-              </div>
-              <input type="submit" class="button" value="Отправить">
-            </form>
+              <button type="submit" class="button" value="Отправить">Отправить</button>
+            </div>
         </div>
-      </div>
+      </form>
     </div>
     <footer class="footer">
         <div class="container">

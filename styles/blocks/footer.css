@@ -1,11 +1,9 @@
 .footer {
-  /* height: 77px; */
+  margin-top: 50px;
   background-color: #27273e;
- /*  line-height: 77px; */
 }
 .footer .container {
   height: 77px;
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +13,7 @@
   font-family: gotham-l;
   font-size: 14px;
   color: #fff;
-  padding: 0 0 0 19px;
+  margin-left: 19px;
   line-height: normal;
 }
 .footer-copy__link {

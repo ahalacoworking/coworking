@@ -1,9 +1,5 @@
 .social {
-  height: 100%;
   text-align: left;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
 }
 
 .social__tittle {

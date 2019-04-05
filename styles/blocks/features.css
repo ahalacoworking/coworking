@@ -1,6 +1,3 @@
-.features {
-}
-
 .features__list {
   display: flex;
   justify-content: space-around;
@@ -9,7 +6,6 @@
 }
 
 .features__item {
-  width: 260px;
   text-align: center;
 }
 .features__item-icon {
@@ -39,27 +35,23 @@
   background: url('../../images/painter-palette.png') center center no-repeat;
 }
 .features__item-tittle {
+  margin-top: 30px;
   font-family: gotham-b;
   font-size: 11px;
   color: #212121;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-  padding-top: 30px;
 }
 .features__item-desc {
-  display: block;
-  padding: 0 20px;
   font-family: gotham-r;
   font-size: 18px;
   color: #212121;
   max-width: 207px;
   line-height: 30px;
-  padding-top: 20px;
   box-sizing: content-box;
 }
 .features__item-list {
   text-align: left;
-  display: block;
 }
 .features__item-list__item {
   font-family: gotham-r;

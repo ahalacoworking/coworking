@@ -1,8 +1,10 @@
 .form {
-  height: 534px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: gotham-l;
+  font-size: 14px;
+  color: #221f1f;
 }
 
 .container--form {
@@ -16,31 +18,64 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .name {
   width: 269px;
 }
 .text-input {
+  margin-top: 10px;
   width: 269px;
   height: 45px;
   border-radius: 3px;
   border: none;
+}
+.text-input::placeholder {
+  padding-left: 10px;
+  color: rgba(34, 31, 31, 0.5);
 }
 
 .vk-link {
   width: 269px;
 }
 .yourtext {
-  width: 561px;
+  width: 100%;
+  margin-top: 20px;
 }
 .yourtext__textarea {
   width: 100%;
+  margin-top: 10px;
   height: 90px;
   border-radius: 3px;
   border: none;
   resize: none;
 }
+.yourtext__textarea::placeholder {
+  padding-left: 10px;
+  padding-top: 10px;
+  color: rgba(34, 31, 31, 0.5);
+}
 .addfoto {
-  width: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.addfoto__choice {
+  margin-top: 10px;
+  width: 113px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  border-radius: 3px;
+  background: #27273e;
+  color: #fff;
+  font-family: gotham-b;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
 }
