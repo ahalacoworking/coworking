@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  margin: 0 75px 0 20px;
+  margin: 0 70px 0 20px;
 }
 .navigation__item {
   margin-top: 33px;

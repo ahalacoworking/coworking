@@ -1,0 +1,23 @@
+.partner {
+  margin-top: 37px;
+}
+
+.part-icons__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.part-icons__item {
+  width: 300px;
+  margin: 32px 0 15px 0;
+}
+
+.part-icons__logo {
+  filter:grayscale(100%);
+}
+
+.part-icons__logo:hover {
+  filter:none;
+}
