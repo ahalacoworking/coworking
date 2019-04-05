@@ -72,10 +72,12 @@
   width: 140px;
   height: 45px;
   border-radius: 3px;
+  border: none;
   background: #27273e;
   color: #fff;
   font-family: gotham-b;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2.4px;
+  cursor: pointer;
 }
