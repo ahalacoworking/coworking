@@ -1,10 +1,10 @@
 .newsfeeds {
-  margin-top: 74px;
+  margin-top: 6px;
 }
 .newsfeeds-section {
   display: flex;
   flex-flow: column;
-  margin-top: 45px;
+  margin-top: 10px;
 }
 .newsfeeds-section__item {
   display: flex;
