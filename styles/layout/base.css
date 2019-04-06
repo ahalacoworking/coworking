@@ -57,9 +57,13 @@ table {
   width: 100%;
 }
 .container--maincontent {
+  width: 1060px;
   margin-top: 40px;
   display: flex;
   flex-flow: row;
+}
+
+.container--prices {
 }
 
 .tittle {

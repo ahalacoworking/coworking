@@ -11,12 +11,13 @@
 }
 
 .sale__cont {
-  margin: 50px 0;
+  margin: 40px 0;
   width: 611px;
   font-family: gotham-l;
   font-size: 18px;
   line-height: 30px;
   color: #fff;
+  text-align:justify;
 }
 
 .sale__cont span {

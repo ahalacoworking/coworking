@@ -154,39 +154,40 @@
           </div>
         </div>
       </section>
-      <form class="form">
-        <div class="container container--form">
-            <h2 class="tittle">Оставить отзыв</h2>
-            <div  class="form-in">
-              <div class="name">
-                <div class="name__desc">Ваше имя</div>
-                <input type="text" class="text-input" placeholder="Андрей">
-              </div>
-              <div class="vk-link">
-                <div class="vk-link__desc">Ссылка на профиль VK</div>
-                <input type="text" class="text-input" placeholder="vk.com/example">
+      <section class="feedback__container container">
+        <form class="form">
+          <h2 class="tittle">Оставить отзыв</h2>
+          <div  class="form-in">
+            <label class="name">
+              <div class="name__desc">Ваше имя</div>
+              <input type="text" class="text-input" placeholder="Андрей">
+            </label>
+            <label class="vk-link">
+              <div class="vk-link__desc">Ссылка на профиль VK</div>
+              <input type="text" class="text-input" placeholder="vk.com/example">
+            </label>
+          </div>
+          <label class="yourtext">
+            <div class="yourtext__desc">Текст отзыва</div>
+            <textarea type="text" class="yourtext__textarea" placeholder="Мне понравилось"></textarea>
+          </label>  
+          <div class="addfoto">
+            <div class="addfoto__radio">
+              <div class="addfoto__desc">Отображать фото в отзыве?</div>
+              <div class="addfoto__choice">
+                <label class="addfoto__choice-check">
+                  <input type="radio" name="addfoto" class="addfoto__yes" value="Да"><span>Да</span>
+                </label>  
+                <label class="addfoto__choice-check">
+                  <input type="radio" name="addfoto" class="addfoto__no" value="Нет"><span>Нет</span>
+                </label>  
               </div>
             </div>
-            <div class="yourtext">
-              <div class="yourtext__desc">Текст отзыва</div>
-              <textarea type="text" class="yourtext__textarea" placeholder="Мне понравилось"></textarea>
-            </div>  
-            <div class="addfoto">
-              <div class="addfoto__radio">
-                  <div class="addfoto__desc">Отображать фото в отзыве?</div>
-                  <div class="addfoto__choice">
-                    <label class="addfoto__yes">
-                      <input type="radio" name="addfoto" class="addfoto__yes" value="Да"><span>Да</span>
-                    </label>  
-                    <label class="addfoto__no">
-                      <input type="radio" name="addfoto" class="addfoto__no" value="Нет"><span>Нет</span>
-                    </label>  
-                  </div>
-              </div>
-              <input class="button" type="submit" class="button" value="Отправить">
-            </div>
-        </div>
-      </form>
+            <input class="button" type="submit" class="button" value="Отправить">
+          </div>
+        </form>
+      </section>
+      
     </div>
     <footer class="footer">
         <div class="container">

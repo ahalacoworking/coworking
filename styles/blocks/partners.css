@@ -8,11 +8,13 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  width: 90%;
 }
 
 .part-icons__item {
-  width: 300px;
-  margin: 32px 0 15px 0;
+  width: 160px;
+  text-align: center;
+  margin: 32px 60px 15px 0;
 }
 
 .part-icons__logo {
